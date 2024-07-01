@@ -1,8 +1,8 @@
 import express from "express";
 import cors from "cors";
 import mongoose from "mongoose";
-import { userRouter } from "./routes/user.js";
-import { scoreRouter } from "./routes/score.js";
+import { userRouter} from "./src/routes/user.js";
+import { scoreRouter } from "./src/routes/score.js";
 import dotenv from "dotenv";
 
 dotenv.config();
